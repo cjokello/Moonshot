@@ -6,9 +6,10 @@ struct AstronautView: View {
     var body: some View {
         ScrollView {
             VStack {
-                Image(astronaut.name)
+                Image(astronaut.id)
                     .resizable()
                     .scaledToFit()
+                    .padding()
 
                 Text(astronaut.description)
                     .padding()
