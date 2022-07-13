@@ -8,7 +8,7 @@ struct ContentView: View {
         GridItem(.adaptive(minimum: 150))
     ]
     
-    @State private var showingGrid: Bool = false
+    @State private var showingGrid: Bool = true
     
     var body: some View {
         NavigationView {
